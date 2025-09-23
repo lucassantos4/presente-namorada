@@ -18,7 +18,6 @@ header{
     background-color: #E192E5;
     width: 100%;
     padding: 15px 0px;
-    justify-content: space-between;
     box-shadow: -2px 2px 5px #00000038;
     margin: 0px 0px 50px 0px;
     
@@ -47,7 +46,7 @@ header{
     list-style-type: none;
     color: #fff;
     transition: all 0.3s ease;
-    font: 400 18px arial;
+    font: 400 2vh arial;
     text-shadow: 2px 2px 2px #00000062;
 }
 .header-links:hover{
@@ -55,7 +54,7 @@ header{
     cursor: pointer;
     color: #fff;
     font: 300 20px arial;
-    pad: 10px 15px;
+    padding: 10px 15px;
     text-shadow: 2px 2px 2px #00000062;
     
 }
@@ -64,7 +63,7 @@ header{
 body{
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 100vw;
     background-color: #ded4f777;
     flex-direction: column;
     min-height: 100vh;
@@ -73,42 +72,39 @@ main{
     flex-grow: 1;
 }
 section{
-    display: flex;
-     border-radius: 3px;
-    display: flex;
     margin: auto;
-    height: 500px;
+}
+#declaracao1{
     display: flex;
-    margin: auto;
-    width: 900px;
-    
+    width: fit-content;
     
 }
 .texto{
     background-image:  url(images/200w.gif) ;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 400px;
+    
 }
 div p{
-    
-    margin: 100px 0px 0px 85px;
+    margin: 5.5em 0px 0px 5em;
     width: 250px;
-    font: 400 17px "Permanent Marker", cursive;
-    line-height: 26px;
+    font: 400 1.05em "Permanent Marker", cursive;
+    line-height: 1.64em;
     color: #0c0313;
    
 }
 .imagemisabel1 p{
-    
-    margin: 0px 190px;
+    margin: auto;
 }
 #imagemisabel1{
-    margin-top: 50px;
+    margin: auto;
     border-radius: 5px;
-    height: 350px;
+    max-width: 500px;
+    min-width: 250;
+    max-height: 500px;
+    min-width: 250px;
     border: 40px solid;
-    
+
     border-image: url(https://static.vecteezy.com/system/resources/thumbnails/015/658/487/small/love-heart-empty-square-frame-illustration-png.png) 33 / 32px / 0px repeat;
     
 }
@@ -121,4 +117,50 @@ footer h2{
     color: #fff;
     text-align: center;
     margin: 15px 0px ;
+}
+@media screen and (max-width: 935px) {
+    .texto{
+        display: flex;
+        background-image:  url(images/200w.gif)  ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 350px;
+        height: 500px;
+        font: 400 1em "Permanent Marker", cursive;
+        margin: auto;
+        
+        
+        
+    }
+    #declaracao1{
+        display: inline;
+    }
+    .header-links{
+        padding: 1vh;
+        margin: 0px;
+        font: 400 1.5vh arial;
+    }
+    .header-links:hover{
+        background-color: #C693E6;
+        cursor: pointer;
+        color: #fff;
+        font: 300 12px arial;
+        text-shadow: 2px 2px 2px #00000062;
+    }
+    
+    #imagemisabel1{
+        padding: 20px 0px;
+        margin: auto;
+        display: flex;
+        width: 300px;
+        height: 250px;
+        border: 35px solid;
+        border-image: url(https://static.vecteezy.com/system/resources/thumbnails/015/658/487/small/love-heart-empty-square-frame-illustration-png.png) 33 / 25px / 0px repeat;
+    }
+    section{
+        display: flex;
+    }
+    footer{
+        margin-top: 50px;
+    }
 }
