@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+.permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}  
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    background-position: 1%;
+    display: flex;
+    background-color: #E192E5;
+    width: 100%;
+    padding: 15px 0px;
+    justify-content: space-between;
+    box-shadow: -2px 2px 5px #00000038;
+    margin: 0px 0px 50px 0px;
+    
+
+    
+}
+#header-links-container{
+    
+    display: inline-flex;
+    margin: auto;
+}
+#stitchfofinho{
+    
+    display: inline;
+    width: 60px;
+    height: 60px;
+    margin: 0px 0px 0px 20px;
+    filter: drop-shadow(0px 1px 0px #0000009c );
+}
+.header-links{
+    
+    margin: 0px 3px;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+    transition: all 0.3s ease;
+    font: 400 18px arial;
+    text-shadow: 2px 2px 2px #00000062;
+}
+.header-links:hover{
+    background-color: #C693E6;
+    cursor: pointer;
+    color: #fff;
+    font: 300 20px arial;
+    pad: 10px 15px;
+    text-shadow: 2px 2px 2px #00000062;
+    
+}
+
+
+body{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #ded4f777;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex-grow: 1;
+}
+section{
+    display: flex;
+     border-radius: 3px;
+    display: flex;
+    margin: auto;
+    height: 500px;
+    display: flex;
+    margin: auto;
+    width: 900px;
+    
+    
+}
+.texto{
+    background-image:  url(images/200w.gif) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+}
+div p{
+    
+    margin: 100px 0px 0px 85px;
+    width: 250px;
+    font: 400 17px "Permanent Marker", cursive;
+    line-height: 26px;
+    color: #0c0313;
+   
+}
+.imagemisabel1 p{
+    
+    margin: 0px 190px;
+}
+#imagemisabel1{
+    margin-top: 50px;
+    border-radius: 5px;
+    height: 350px;
+    border: 40px solid;
+    
+    border-image: url(https://static.vecteezy.com/system/resources/thumbnails/015/658/487/small/love-heart-empty-square-frame-illustration-png.png) 33 / 32px / 0px repeat;
+    
+}
+
+footer{
+    background-color: #000;
+}
+footer h2{
+    font: 400 20px arial , cursive;
+    color: #fff;
+    text-align: center;
+    margin: 15px 0px ;
+}
