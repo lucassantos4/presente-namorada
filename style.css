@@ -13,7 +13,6 @@
     margin: 0%;
 }
 header{
-    background-position: 1%;
     display: flex;
     background-color: #E192E5;
     width: 100%;
@@ -66,7 +65,7 @@ body{
     height: 100vw;
     background-color: #ded4f777;
     flex-direction: column;
-    min-height: 100vh;
+    height: 100vh;
 }
 main{
     flex-grow: 1;
@@ -118,29 +117,31 @@ section{
 }
 
 footer{
+    
     background-color: #000;
 }
 footer h2{
-    font: 400 20px arial , cursive;
+    font: 400 15px arial , cursive;
     color: #fff;
     text-align: center;
-    margin: 15px 0px ;
+    margin: 10px 0px ;
 }
-@media screen and (max-width: 935px) {
+@media screen and (max-width: 921px) {
     .texto{
         background-image:  url(images/200w.gif)  ;
         background-repeat: no-repeat;
         background-size: cover;
         max-width: 500px;
-        min-width: 280;
         height: fit-content;
         margin: auto;     
     }
    
     #declaracao1{
       display: grid;
+
     }
     header{
+        height: 55px;
         display: inline-flex;
         justify-content: space-between;
     }
@@ -153,16 +154,16 @@ footer h2{
         padding: 0px;
     }
     .header-links{
-        padding: 0.8vh;
-        margin: 0px;
-        font: 400 1.5vh arial;
+        margin: 0px 3px;
+        font: 400 90% arial;
     }
     .header-links:hover{
         background-color: #C693E6;
         cursor: pointer;
         color: #fff;
-        font: 300 15px arial;
+        font: 400 100% arial;
         text-shadow: 2px 2px 2px #00000062;
+        padding: 10px;
     }
     .texto h1{
         font: 400 1.5em "Permanent Marker", cursive;
