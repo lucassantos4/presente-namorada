@@ -277,8 +277,17 @@ p{
     .paginafotos{   
         aspect-ratio: 3/4;
         min-height: 270px;
+            /* efeito */
+        transform: 30vh; /* começa normal */
+        animation: expandir 1s ease-out forwards;
     }
-    .paginasfotos:active {
-        height: 30vh;
-    }
+
+    /* animação */
+    @keyframes expandir {
+        from {
+            transform: scale(1);
+        }
+            to {transform: scale(1.1); /* aumenta levemente */
+        }
+
 }
