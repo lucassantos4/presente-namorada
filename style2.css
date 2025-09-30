@@ -274,7 +274,11 @@ p{
         -webkit-text-size-adjust: none;
         line-height: 1;
     }
-    .paginafotos{
+    .paginafotos{   
         aspect-ratio: 3/4;
+        min-height: 270px;
+    }
+    .paginasfotos:active {
+        height: 30vh;
     }
 }
