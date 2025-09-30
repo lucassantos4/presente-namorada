@@ -147,7 +147,7 @@ header{
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  font: 200 30px Kanit;
+  font: 200 2em Kanit;
   text-shadow: 1px 1px 1px rgb(0, 0, 0);
   pointer-events: none;
 }
@@ -269,5 +269,11 @@ p{
         text-align: justify;
         font-size: 80%;
     }
+    .texto-sobreposto {
+        font: 200 2vh Kanit;
+        -webkit-text-size-adjust: none;
+        line-height
+    }
+
 }
 
