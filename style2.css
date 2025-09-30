@@ -272,8 +272,9 @@ p{
     .texto-sobreposto {
         font: 200 2vh Kanit;
         -webkit-text-size-adjust: none;
-        line-height
+        line-height: 1;
     }
-
+    .paginafotos{
+        aspect-ratio: 3/4;
+    }
 }
-
