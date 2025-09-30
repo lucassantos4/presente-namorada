@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&display=swap');
+
+
+
+
+
+
+
+.permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}  
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    display: flex;
+    background-color: #E192E5;
+    width: 100%;
+    padding: 15px 0px;
+    box-shadow: -2px 2px 5px #00000038;
+    margin: 0px 0px 50px 0px;
+    
+
+    
+}
+#header-links-container{
+    margin: auto;
+    display: inline-flex;
+    align-items: center;
+    
+}
+#stitchfofinho{
+    
+    display: inline;
+    width: 60px;
+    height: 60px;
+    margin: 0px 0px 0px 20px;
+    filter: drop-shadow(0px 1px 0px #0000009c );
+}
+.header-links{
+    
+    margin: 0px 3px;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+    transition: all 0.3s ease;
+    font: 400 25px arial;
+    text-shadow: 2px 2px 2px #00000062;
+    text-align: center;
+}
+.header-links:hover{
+    background-color: #C693E6;
+    cursor: pointer;
+    color: #fff;
+    font: 300 27px arial;
+    padding: 10px 15px;
+    text-shadow: 2px 2px 2px #00000062;
+    
+}
+#main{
+
+    
+    width: 100%;
+    height: 100vh;
+}
+#container-ytvideo{
+    
+    position: relative;
+    width: fit-content;
+    display: flex;
+    margin: auto;
+}
+#container-ytvideo .thumb {
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+#ytvideo{
+    
+    background-image: url(images/thumbvideo.jpg);
+    width: 445px;
+    height: 340px;
+}
+#Declacao{
+    display: flex;
+}
+#teamo{
+    padding: 40px 0px 0px 0px;
+    text-align: center;
+}
+#imgnatal{
+    display: flex;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    border: 10px solid #c693e650;
+}
+#Declaracao h1{
+    font: 400 20px "Bitcount Prop Single Ink";
+    width: 30%;
+    text-align: justify;
+    margin: auto;
+}
+#natal{
+    width: 1500px;
+}
+.grupopaginas{
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    border-top: 2px solid #bf74eb;
+    background-color: #c693e667;
+    overflow: hidden;
+}
+.paginasfotos{
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    display: block;
+    height: 20vh;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.7s ease;
+}
+.paginas{
+  position: relative;
+  display: inline;
+
+}
+.texto-sobreposto {
+    pointer-events: none;
+    text-align: center;
+    font: 400 3vh arial;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    
+}
+.paginasfotos:hover{
+    height: 30vh;
+}
+#colecao-fotos{
+    display: flex;
+    margin: 50px 0px 0px 0px;
+    
+}
+.grupofotos{
+    margin: auto;
+    text-align: center;
+    width: 1000px;
+    border-top: 2px solid #bf74eb;
+    background-color: #c693e667;
+    overflow: hidden;
+    
+}
+
+p{
+    margin: 10px 0px;
+    font: 400 12px "Bitcount Prop Single Ink";
+    text-align: justify;
+    
+}
+.fotosp {
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    background-color: aliceblue;
+    display: inline-block; 
+    width: 250px;         
+    margin: 5px;    
+    text-align: center;    
+    vertical-align: top;   
+    box-shadow: 2px 2px 4px #00000070;
+}
+
+.fotos{
+    background-color: #000;
+    width: 100%;
+    height: 250px ;
+    object-fit: cover;
+    border-radius: 3px;
+
+}
+#videolateral{
+    transform: rotate(-90deg);
+}
+.espaco{
+    padding: 50px 20px;
+}
+
+
+
+@media screen and (max-width: 921px) {
+    #ytvideo{
+    
+    background-image: url(images/thumbvideo.jpg);
+    width: 300px;
+    height: 152px;
+}
+    .texto{
+        background-image:  url(images/200w.gif)  ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 500px;
+        height: fit-content;
+        margin: auto;     
+    }
+   
+    #declaracao1{
+      display: grid;
+
+    }
+    header{
+        height: 55px;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+
+    #stitchfofinho{
+        width: 40px;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+    .header-links{
+        margin: 0px 3px;
+        font: 400 90% arial;
+    }
+    .header-links:hover{
+        background-color: #C693E6;
+        cursor: pointer;
+        color: #fff;
+        font: 400 100% arial;
+        text-shadow: 2px 2px 2px #00000062;
+        padding: 10px;
+    }
+    .fotos{
+    background-color: #000;
+    width: 100%;
+    height: 150px ;
+    object-fit: cover;
+    border-radius: 3px;
+    }  
+    .fotosp {
+    width: 150px;         
+    }
+    #imgnatal{
+        width: 350px;
+    }
+
+    #Declaracao h1{
+        width: 50%;
+        text-align: justify;
+        font-size: 80%;
+    }
+}
+

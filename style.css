@@ -24,7 +24,7 @@ header{
     
 }
 #header-links-container{
-    
+    align-items: center;
     display: inline-flex;
     margin: auto;
 }
@@ -45,20 +45,21 @@ header{
     list-style-type: none;
     color: #fff;
     transition: all 0.3s ease;
-    font: 400 2vh arial;
+    font: 400 25px arial;
     text-shadow: 2px 2px 2px #00000062;
 }
 .header-links:hover{
     background-color: #C693E6;
     cursor: pointer;
     color: #fff;
-    font: 300 20px arial;
+    font: 300 27px arial;
     padding: 10px 15px;
     text-shadow: 2px 2px 2px #00000062;
     
 }
-
-
+.fotosescondidas{
+    visibility: hidden;
+}
 body{
     display: flex;
     width: 100%;
@@ -85,6 +86,7 @@ section{
    
     
 }
+
 .texto h1{
     font: 400 1.6em "Permanent Marker", cursive;
     margin: 2.5em 0em 0em 2.5em;
